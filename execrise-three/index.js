@@ -81,7 +81,7 @@ const isUsernameCorrect = username === "user123";
 const isPasswordCorrect = password === "password456";
 
 if (isUsernameCorrect && isPasswordCorrect) {
-        console.log("Login successful! Welcome.");
+    console.log("Login successful! Welcome.");
 } else {
     console.log("Invalid credentials. Please try again.");
 }
