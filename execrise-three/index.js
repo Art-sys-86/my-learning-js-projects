@@ -73,4 +73,15 @@ let extension = email.slice(email.indexOf("@") + 1);
 console.log(userName);
 console.log(extension);
 
+//Test
+let username = prompt(`Enter your Username:`);
+let password = prompt(`Enter your password:`);
 
+const isUsernameCorrect = username === "user123";
+const isPasswordCorrect = password === "password456";
+
+if (isUsernameCorrect && isPasswordCorrect) {
+        console.log("Login successful! Welcome.");
+} else {
+    console.log("Invalid credentials. Please try again.");
+}
