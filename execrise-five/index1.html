@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form>
+    <h1>Time Converter</h1>
+    <input type="number" value="0" id="textBox"><br>
+
+    <input type="radio" id="toBinary" name="unit">
+    <label for="toBinary">Seconds to Minutes</label><br>
+
+    <input type="radio" id="toDecimal" name="unit">
+    <label for="toDecimal">Minutes to Hours</label><br>
+    <button type="button" onclick="convert()">Convert</button>
+    <p id="result"></p>
+    </form>
+
+    <script src="main2.js"></script>
+</body>
+</html>
